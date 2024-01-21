@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 15px 25px 10px 25px;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+
+.button {
+    font-size: 17px;
+    padding: 4px 15px;
+    background-color: #ffbfbf;
+    border-radius: 6px;
+    color: #474444;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+    margin: 0 5px 5px 0;
+}
+
+.button:hover {
+    border-color: #ff9e9e;
+}
